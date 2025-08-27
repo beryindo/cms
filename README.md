@@ -4,6 +4,8 @@ versi CMS terbaru 4.0.3
 
 **UNTUK DI LOKAL TIDAK PERLU INSTALL L2TP, BISA LANGSUNG KE PROSES INSTALL CMS**
 
+PASTIKAN LOGIN root
+
 INSTALL L2TP untuk TUNNEL CMS
 ```
 apt update
@@ -17,7 +19,7 @@ cek pastikan TIDAK ada mengandung kata cloud
 wget https://raw.githubusercontent.com/beryindo/genieacs/refs/heads/main/vpnsetup.sh && chmod +x vpnsetup.sh
 ```
 ```
-sudo ./vpnsetup.sh
+./vpnsetup.sh
 ```
 
 ```
@@ -47,8 +49,8 @@ ip route add 10.0.0.0/24 dev ppp0
 
 ```
 wget https://raw.githubusercontent.com/beryindo/cms/refs/heads/main/install_docker.sh
-sudo chmod +x install_docker.sh
-sudo ./install_docker.sh
+chmod +x install_docker.sh
+./install_docker.sh
 ```
 
 Jika ada pilihan pilih n saja
